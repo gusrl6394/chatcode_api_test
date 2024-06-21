@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "timeline": "1시간 전",
+      "profileImg": "https://.../글쓴이1.img",
+      "nickname": "가나다라마1",
+      "title": "test",
+      "content": "질문 1) ..",
+      "tags": [
+        "coding",
+        "react",
+        "spring"
+      ],
+      "status": "wait",
+      "bookmark": false,
+      "blind": false,
+      "viewCount": 150,
+      "commentCount": 23,
+      "likeCount": 15
+    },
+    {
+      "id": 2,
+      "timeline": "2시간 전",
+      "profileImg": "https://.../글쓴이2.img",
+      "nickname": "가나다라마2",
+      "title": "스프링 관련 질문",
+      "content": "질문이 있습니다 ..",
+      "tags": [
+        "coding",
+        "node.js",
+        "spring"
+      ],
+      "status": "finish",
+      "bookmark": false,
+      "blind": true,
+      "viewCount": 20,
+      "commentCount": 0,
+      "likeCount": -5
+    },
+    {
+      "id": 3,
+      "timeline": "6시간 전",
+      "profileImg": "https://.../글쓴이3.img",
+      "nickname": "가나다라마3",
+      "title": "test",
+      "content": "질문..",
+      "tags": [
+        "coding",
+        "react",
+        "css"
+      ],
+      "status": "finish",
+      "bookmark": true,
+      "blind": false,
+      "viewCount": 1000,
+      "commentCount": 120,
+      "likeCount": 320
+    }
+  ],
+  "message": "에러가 발생하지 않은 경우 Empty String",
+  "pageInfo": {
+    "page": 1,
+    "size": 10,
+    "totalElements": 20,
+    "totalPages": 2
+  }
+}
